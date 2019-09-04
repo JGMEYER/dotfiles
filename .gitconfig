@@ -1,0 +1,14 @@
+[user]
+	name = JGMEYER
+	email = meyer.justian@gmail.com
+[core]
+	excludesfile = /Users/justianm/.gitignore_global
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist-short = log --pretty=format:\"%h %C(magenta)%ad%Creset | %s%d [%an]\" --graph --date=short -n 10
+	hist-all = log --pretty=format:\"%h %C(magenta)%ad%Creset | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
