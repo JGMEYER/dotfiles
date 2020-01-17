@@ -5,7 +5,7 @@
 alias src="source $HOME/.bash_profile"
 alias bp="$EDITOR ~/.bash_profile"
 
-alias df="cd $HOME/.dot_files"
+alias df="cd $HOME/.dotfiles"
 
 # =======
 # General
@@ -37,11 +37,11 @@ alias gam="git commit --amend"
 alias gd="git diff"
 alias gdl="git show"
 alias gst="git status"
-alias gh="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias gh="git log --graph --abbrev-commit --branches --remotes --tags --graph --oneline --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 
 # =======
 # Aliases
 # =======
 
-alias ae="vim $DOTFILES_DIR/bash/aliases.sh"
-alias ar="source $DOTFILES_DIR/bash/aliases.sh"
+alias ae="vim $HOME/.dotfiles/bash/aliases.sh"
+alias ar="source $HOME/.dotfiles/bash/aliases.sh"
