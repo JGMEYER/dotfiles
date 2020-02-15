@@ -18,10 +18,10 @@ alias fif=find_in_file
 alias fifi=find_in_file_with_ignore
 
 find_in_file() {
-    rg --no-ignore -i -- $1
+    rg --no-ignore -i $1
 }
 find_in_file_with_ignore() {
-    rg --no-ignore -i -- $1
+    rg --no-ignore -i $1
 }
 
 # ===
