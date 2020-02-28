@@ -37,6 +37,7 @@ alias gam="git commit --amend"
 alias gd="git diff"
 alias gdl="git show"
 alias gst="git status"
+alias gstl="git show --name-status HEAD"
 alias gh="git log --graph --abbrev-commit --branches --remotes --tags --graph --oneline --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 
 # =======
