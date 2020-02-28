@@ -2,7 +2,7 @@
 	name = JGMEYER
 	email = meyer.justian@gmail.com
 [core]
-	excludesfile = /Users/justianm/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
 	co = checkout
 	ci = commit
